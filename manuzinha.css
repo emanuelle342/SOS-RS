@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #00a43c;
+}
+
+.logo img {
+    max-height: 120px;
+}
+
+.nav-link {
+    font-weight: 600;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #00a43c;
+    border-color: #ffffff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0a4ba1;
+    border-color: #00a43c;
+}
+
+.main img {
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.main img:hover {
+    transform: scale(1.05);
+}
+
+.objective-section {
+    background: #00a43c;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+}
+
+.objective-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.actions-section {
+    padding: 40px 0;
+}
+
+.circle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    transition: transform 0.3s;
+
+}
+
+.circle:hover {
+    transform: scale(1.1); 
+
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer img {
+    max-height: 120px;
+}
+
+footer h3 {
+    margin-top: 15px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .text-center {
+    margin-top: 20px;
+}
+
+i{
+    font-size: 100px;
+    color: rgb(21, 109, 150);
+}
+
+i:hover{
+    font-size: 110px;
+    color: #0a4ba1;
+}
+
+
+.objective-title {
+    background-color: #00a43c; /* Verde */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.objective-content {
+    background-color: white; /* Branco */
+    color: black; /* Preto */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+img-fluid{
+    margin-left: 20px
+    margin-right: 20px
+}
